@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "run-kotlin-run"
 include(":common")
+include(":01_jvm")
