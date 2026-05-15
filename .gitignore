@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+
+*.iml
+.gradle
+.idea
+build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata
+.kotlin
+*.gpg
