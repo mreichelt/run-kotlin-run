@@ -1,5 +1,3 @@
-package io.github.kotlin.fibonacci
-
 fun isPrime(n: Long): Boolean {
     if (n <= 1L) return false
     if (n == 2L) return true

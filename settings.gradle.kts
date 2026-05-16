@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "run-kotlin-run"
 include(":common")
 include(":01_jvm")
+include(":02_android")

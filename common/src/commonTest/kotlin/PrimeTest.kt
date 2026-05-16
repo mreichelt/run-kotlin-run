@@ -1,5 +1,6 @@
 package io.github.kotlin.fibonacci
 
+import isPrime
 import kotlin.test.Test
 import kotlin.test.assertContentEquals
 import kotlin.test.assertFalse

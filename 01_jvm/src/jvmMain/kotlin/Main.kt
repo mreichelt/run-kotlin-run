@@ -1,5 +1,3 @@
-import io.github.kotlin.fibonacci.isPrime
-
 fun main(args: Array<String>) {
     for (arg in args) {
         val n = arg.toLong()
