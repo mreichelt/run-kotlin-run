@@ -19,3 +19,7 @@ include(":01_jvm")
 include(":02_android")
 // 03: ios
 include(":04_gradle")
+// 05: playground
+include(":06_macos")
+include(":07_linux")
+include(":08_windows")

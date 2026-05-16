@@ -8,6 +8,7 @@ version = "1.0.0"
 
 kotlin {
     jvm()
+
     android {
         namespace = "de.marcreichelt.runkotlinrun.common"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
@@ -34,7 +35,12 @@ kotlin {
         }
     }
 
+    macosArm64()
+
+    linuxArm64()
     linuxX64()
+
+    mingwX64()
 
     sourceSets {
         commonMain.dependencies {
