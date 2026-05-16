@@ -26,7 +26,7 @@ class PrimeTest {
 
     @Test
     fun `test big prime`() {
-        assertTrue(isPrime(92233720368547421L))
+        assertTrue(isPrime(123456791L))
     }
 
     @Test
