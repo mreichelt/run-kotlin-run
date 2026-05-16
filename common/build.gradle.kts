@@ -32,6 +32,7 @@ kotlin {
         iosTarget.binaries.framework {
             baseName = "Common"
             isStatic = true
+            binaryOption("bundleId", "de.marcreichelt.primes.common")
         }
     }
 
@@ -41,6 +42,11 @@ kotlin {
     linuxX64()
 
     mingwX64()
+
+    js {
+        browser()
+        nodejs()
+    }
 
     sourceSets {
         commonMain.dependencies {

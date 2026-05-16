@@ -1,10 +1,9 @@
-package io.github.kotlin.fibonacci
-
-import isPrime
 import kotlin.test.Test
 import kotlin.test.assertContentEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
+
+expect val isJs : Boolean
 
 class PrimeTest {
 
@@ -31,6 +30,7 @@ class PrimeTest {
 
     @Test
     fun `test bigger prime`() {
+        if (isJs) return // takes too long for JS, so skip
         assertTrue(isPrime(922337203685474371L))
         assertFalse(isPrime(922337203685474373L))
     }
@@ -38,6 +38,7 @@ class PrimeTest {
 
     @Test
     fun `long computation`() {
+        if (isJs) return // takes too long for JS, so skip
         assertTrue(isPrime(9223370998999999967L))
         assertFalse(isPrime(9223370998999999969L))
     }
