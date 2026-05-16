@@ -6,7 +6,7 @@ kotlin {
     jvm()
 
     sourceSets {
-        commonMain.dependencies {
+        jvmMain.dependencies {
             implementation(project(":common"))
         }
     }
