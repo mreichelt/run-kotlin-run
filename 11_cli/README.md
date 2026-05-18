@@ -25,7 +25,7 @@ kotlin -repl
 
 Make a .kts file executable! ❤️
 
-1. Add `#!/usr/bin/env -S kotlinc -script` as the first line
+1. Add `#!/usr/bin/env kotlin` as the first line
 2. Make the .kts executable: `chmod +x primes.kts`
 3. Run it:
 

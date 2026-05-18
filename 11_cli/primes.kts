@@ -1,4 +1,4 @@
-#!/usr/bin/env -S kotlinc -script
+#!/usr/bin/env kotlin
 
 fun isPrime(n: Long): Boolean {
     if (n <= 1L) return false
