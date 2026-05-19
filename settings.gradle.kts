@@ -28,3 +28,5 @@ include(":08_windows")
 // 11: cli
 include(":12_js")
 include(":13_wasm")
+// 14: notebook
+include(":15_debugger")
