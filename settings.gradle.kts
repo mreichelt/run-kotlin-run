@@ -27,3 +27,4 @@ include(":08_windows")
 // 10: kotlin script
 // 11: cli
 include(":12_js")
+include(":13_wasm")
